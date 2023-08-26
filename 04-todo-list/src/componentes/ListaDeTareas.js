@@ -14,7 +14,7 @@ function ListaDeTareas () {
         //Usar fragmento (<> </>) en lugar del DIV
     
     //Creamos un estado para el array de tareas que actualizamos con la F(X) setTareas
-        //Pasamos un array vacío ([]) como el valor inicial de tareas
+        //Pasamos un array vacío ([]) como el valor inicial del array de tareas
     const [arrayTareas, setArrayTareas] = useState([]);
 
     //F(X) para agretar tarea al array de tareas
