@@ -1,0 +1,26 @@
+.boton-contenedor {
+    height: 83px;
+    display: flex;
+   
+    flex: 1 1; /* Destribuya ancho boton de manera equitativa */
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+    background-color: black;
+    border: 5px solid white;
+    margin: 4px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.boton-contenedor:hover {
+    background-color: gold;
+}
+.operador {
+    background-color: greenyellow;
+}
+
+.operador:hover {
+    background-color: purple;
+}

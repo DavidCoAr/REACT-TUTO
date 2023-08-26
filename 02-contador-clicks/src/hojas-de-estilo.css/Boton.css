@@ -1,0 +1,24 @@
+button {
+    width: 250px;
+    height: 80px;
+
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: greenyellow;
+}
+
+.boton-de-mas-1 {
+    background-color: blue;
+}
+
+.boton-reiniciar {
+    background-color: purple;
+}

@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*  tamaño total del elemento se mantiene constante, independientemente del padding y el borde que se le añada. */
+    box-sizing: border-box;
+    
+}
+
+html, body {
+    background-color: black;
+    border: 2px solid yellow;
+}
+
+.App {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    font-family: 'Press Start 2P', cursive;
+
+    border: 2px solid white;
+}
+/* Ocupa el 100% de su contenedor */
+.squareenix-logo-contenedor{
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+
+    border: 2px solid white;
+}
+
+.logo-squareenix{
+    height: 50px;
+}
+
+.contenedor-contador-botones {
+    height: 550px;
+    min-width: 600px;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid greenyellow;
+}

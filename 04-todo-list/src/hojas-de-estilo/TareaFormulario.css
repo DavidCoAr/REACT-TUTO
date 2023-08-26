@@ -1,0 +1,33 @@
+/* Contenedor input+boton */
+.tarea-formulario {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid greenyellow;
+}
+
+/* Zona input */
+.tarea-input {
+    width: 350px;
+    font-size: 15px;
+    background-color: white;
+    padding: 14px 32px 14px 16px;
+    border: 5px solid orange;
+    outline:none; /* Elimina el contorno al hacer clic en el campo de entrada */
+    /* El imput y el botón por culpa de EDGE (aplica sus propios estilos) no heredan completamente por defecto tus clases */
+    font-family: 'Press Start 2P', cursive;
+}
+
+/* Botón */
+.tarea-boton {
+    padding: 10px;
+    /* El imput y el botón por culpa de EDGE (aplica sus propios estilos) no heredan completamente por defecto tus clases */
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+    cursor: pointer;
+    outline:none; /* Elimina el contorno al hacer clic en el campo de entrada */
+    background-color: greenyellow;
+    color: white;
+    text-transform: capitalize;  /* primera letra de cada palabra estará en mayúscula, */
+}
